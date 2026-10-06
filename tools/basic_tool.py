@@ -1,7 +1,6 @@
 
 from langchain_core.tools import tool
 
-
 @tool
 def get_restaurant_avg_price(restaurant_name: str) -> str:
     """查询餐厅人均消费。
